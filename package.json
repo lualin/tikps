@@ -1,0 +1,26 @@
+{
+    "name": "tikps",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index",
+        "dev": "nodemon server/index",
+        "test": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lualin/tikps.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^7.0.1",
+        "handlebars": "^4.7.7",
+        "nodemon": "^2.0.21"
+    },
+    "devDependencies": {
+        "jest": "^29.4.3"
+    }
+}

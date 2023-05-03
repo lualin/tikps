@@ -1,0 +1,114 @@
+body {
+    background-color: #aee9f0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    margin-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 3rem;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+
+.profile-list p {
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 0.5rem;
+    font-size: calc(70%);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.title {
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-item {
+    text-align: center;
+    padding: 1rem;
+    width: 240px;
+
+}
+
+.form-item input{
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    text-align: end;
+    background-color: rgb(254, 248, 238);
+    width: 100%;
+    height: 30px;
+    margin: 1rem;
+}
+
+.add-pet {
+    font-family: inherit;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background-color: bisque;
+}
+
+.display-profile {
+    background-color: #ffffff88;
+    color: black;
+    font-family: 'Spirax', cursive;
+}
+
+.display-image {
+    display: flex;
+    justify-content: left;
+    border-radius: 50%;
+    border-width: 2px;
+    width: 130px;
+    height: 130px;
+}
+
+.display-description {
+    display: flex;
+    justify-content: right;
+}
+
+.gallery {
+    display: flex;
+    justify-content: right;
+}

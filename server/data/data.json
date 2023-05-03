@@ -1,0 +1,19 @@
+{
+    "profiles": [
+        {
+            "id": "1",
+            "name": "Lila Moran",
+            "age": 34,
+            "gender": "female",
+            "image": "/img/user/person.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Sean Kim",
+            "age": 29,
+            "gender": "male",
+            "image": "/img/user/sean.jpg"
+        }
+    ]
+}
+

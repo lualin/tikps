@@ -1,0 +1,62 @@
+{{!-- Add user --}}
+<div class='container'>
+  <div class='profile-list'>
+    <img class='img-circle' src='/img/user/unknown.jpg' />
+    <div class='container'>
+      <form action='/add' method='post' class="form">
+        <label for='name' class='form-item'>
+          Name:
+          <input
+            type='text'
+            name='name'
+            value='{{name}}'
+            class='text-field'
+            required
+          />
+        </label>
+
+        <label for='age' class='form-item'>
+          Age:
+          <input
+            type='text'
+            name='age'
+            value='{{age}}'
+            class='text-field'
+            required
+          />
+        </label>
+
+        <label for='gender' class='form-item'>
+          Gender:
+          <input
+            type='text'
+            name='gender'
+            value='{{gender}}'
+            class='text-field'
+            required
+          />
+        </label>
+        <input type='submit' value='add' class='add-pet' />
+      </form>
+    </div>
+
+  </div>
+</div>
+
+{{!-- Display users --}}
+<div class='container'>
+  {{#each profiles}}
+    <div class='profile-list'>
+      <a href='/profile/{{id}}'><img
+          class='img-circle'
+          src='{{image}}'
+          alt='{{name}}'
+        /></a>
+      <div class='container'>
+        <p>Name: {{name}}</p>
+        <p>Age: {{age}}</p>
+        <p>Gender: {{gender}}</p>
+      </div>
+    </div>
+  {{/each}}
+</div>
